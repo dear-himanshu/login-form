@@ -1,0 +1,148 @@
+div{
+    /* border: 1px solid ;  */
+}
+
+body{
+    background-color: #CAF4FF;
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px ;
+}
+.nav-bar{
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+.nav{
+    font-family:cursive ;
+    text-decoration: none;
+    color: #151515;
+    padding: 3px;
+    margin: 2px;
+    background-color: #BFF6C3;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+a:hover{
+    background-color: #240750;
+    color: #BFF6C3;
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #0d3131;   
+}
+img{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    width: 120px;
+    border-radius: 50%;   
+}
+
+img:hover {
+    box-shadow: 0 0 30px rgb(253, 253, 185);
+    
+    
+}
+.profile{
+    display: flex;
+    justify-content: center;
+}
+#username{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 0px 2px 0px;
+    /* padding: 40px 0px 2px 0px; */
+}
+#password{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 0px 2px 0px; 
+}
+
+#input1 {
+    width: 120px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+#input2 {
+    width: 120px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+#input1:hover, #input1:focus{
+    border-bottom: solid 1px #888888;
+    outline: none;
+}
+
+#input2:hover, #input2:focus{
+    border-bottom: solid 1px #888888;
+    outline: none;
+}
+
+label{
+    margin: 1px 10px 1px 1px ;
+}
+
+.action{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#login{
+    padding: 7px;
+    border: none;
+    background-color: #6789ff;
+    color: white;
+    margin: 10px; 
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 10px;
+    
+}
+#cancel{
+    padding: 7px;
+    border: none;
+    background-color: #6789ff;
+    color: white;
+    margin: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#login:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+#cancel:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+#rememberme{
+    text-align: center;
+    margin: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#forget{
+    background-color: transparent;
+    color: black;
+}
+#forget:hover{
+    color:#615f5f;
+}
